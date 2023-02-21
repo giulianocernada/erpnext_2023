@@ -941,7 +941,9 @@ async function paso_7h(tiempo) {
             )
         }
     })
+    if(paso_7comprobacionRealizada === true){
     await guardar(tiempo)
+    }
 }
 
 // PASO I: REMUEVO LAS FILAS DE LA TABLA SECUNDARIA DE RASGOS DIRECTOS EN EVALUACIONES
@@ -967,7 +969,9 @@ async function paso_7i(tiempo) {
             )
         }
     })
-    await guardar(tiempo)
+    if(paso_7comprobacionRealizada === true){
+        await guardar(tiempo)
+    }
 }
 
 // PASO J: ELIMINO LOS DOCUMENTOS QUE HAY EN RASGOS DIRECTOS ASI CUANDO SE GENERAN NUEVOS NO HAY DUPLICADOS
@@ -1011,7 +1015,9 @@ async function paso_7j(tiempo) {
             )
         }
     })
-    await guardar(tiempo)
+    if(paso_7comprobacionRealizada === true){
+        await guardar(tiempo)
+    }
 }
 
 // PASO K: ELIMINO
@@ -1039,7 +1045,9 @@ async function paso_7k(tiempo) {
             )
         }
     })
-    await guardar(tiempo)
+    if(paso_7comprobacionRealizada === true){
+        await guardar(tiempo)
+    }
 }
 
 // PASO L
@@ -1076,7 +1084,9 @@ async function paso_7l(tiempo) {
             )
         }
     })
-    await guardar(tiempo)
+    if(paso_7comprobacionRealizada === true){
+        await guardar(tiempo)
+    }
 }
 
 // PASO M:
